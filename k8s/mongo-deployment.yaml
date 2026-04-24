@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: adis-mongo
+  labels:
+    app: adis-mongo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: adis-mongo
+  template:
+    metadata:
+      labels:
+        app: adis-mongo
+    spec:
+      containers:
+      - name: mongo
+        image: mongo:7
+        ports:
+        - containerPort: 27017
+        volumeMounts:
+        - name: mongo-data
+          mountPath: /data/db
+      volumes:
+      - name: mongo-data
+        emptyDir: {}  # In production, use a PersistentVolumeClaim
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: adis-mongo
+spec:
+  selector:
+    app: adis-mongo
+  ports:
+  - port: 27017
+    targetPort: 27017
+  type: ClusterIP
