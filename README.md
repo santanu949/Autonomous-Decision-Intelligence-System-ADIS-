@@ -1,130 +1,128 @@
-# 🧠 ADIS: The Autonomous Decision Intelligence System
+# 🧠 ADIS: Autonomous Decision Intelligence System
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Beginner--Friendly-Yes-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-</div>
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-20232A.svg?logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED.svg?logo=docker&logoColor=white)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5.svg?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![Status](https://img.shields.io/badge/Status-Advanced_Prototype-orange.svg)]()
+
+**ADIS** is a production-grade Decision Intelligence platform designed to transform messy, complex datasets into clear, strategic action plans. Unlike traditional dashboards that only visualize data, ADIS analyzes, predicts, and recommends the next best move for your business.
 
 ---
 
-## 🌟 What is ADIS? (In simple terms)
+## 📖 Overview
 
-Imagine you own a large bakery. Every day you have thousands of sales, varying ingredient costs, and changing customer habits. It's impossible for a human to look at every single receipt and decide exactly how much flour to buy for next week.
+In today's data-driven world, the challenge isn't having data—it's knowing what to do with it. **ADIS (Autonomous Decision Intelligence System)** solves this by acting as a "Digital Super Manager." It ingests raw data, identifies anomalies, predicts future trends using machine learning, and synthesizes these findings into plain-English strategic recommendations.
 
-**ADIS is your digital "Super Manager."** 
-- It looks at your messy spreadsheets.
-- It finds mistakes or weird events (like a sudden drop in cookie sales).
-- It predicts the future (how many cakes you'll sell next Tuesday).
-- **Most importantly:** It tells you exactly what to do (e.g., *"Buy 20kg more flour because a holiday is coming"*).
-
-**ADIS doesn't just show you charts; it gives you answers.**
+### The Core Idea
+ADIS doesn't just show you "What" happened; it explains "Why" it happened and tells you "What" to do next. It bridges the gap between complex data science and intuitive business leadership.
 
 ---
 
-## 🚀 Amazing Things ADIS Can Do
+## ✨ Key Features
 
-| Feature | What it does | Why you'll love it |
-| :--- | :--- | :--- |
-| **🧼 Auto-Cleanup** | Fixes messy data automatically. | You don't have to spend hours cleaning spreadsheets. |
-| **🕵️ Outlier Finder** | Spots "weird" data points instantly. | Catch mistakes or fraud before they become problems. |
-| **🔮 Future Predictor** | Guesses what happens next. | Plan your budget and staff weeks in advance. |
-| **💡 Reasoning Engine** | Explains its logic in plain English. | You don't need a math degree to understand the "Why." |
-| **💬 AI Chat** | Let's you talk to your data. | Just ask: *"Why are my costs so high?"* and get an answer. |
-
----
-
-## 🏗 How it Works (The "Factory" Analogy)
-
-Think of ADIS like a high-tech factory assembly line:
-
-1.  **The Loading Dock (Ingestion):** You drop off your data (CSV or JSON files).
-2.  **The Sorting Station (Parser):** The system identifies what is a date, a price, or a name.
-3.  **The Inspectors (Analytics):** Specialists look for patterns, correlations, and "weird" values.
-4.  **The Fortune Teller (ML Engine):** Machine learning models predict the future based on the past.
-5.  **The CEO's Office (Synthesizer):** The system combines all findings into a final recommendation.
-6.  **The Dashboard (UI):** You see the final "Action Plan" on a beautiful screen.
+- **🧼 Autonomous Data Ingestion**: Automatically handles data cleaning, parsing, and normalization of CSV/JSON files.
+- **🔮 Predictive Intelligence**: Integrated Machine Learning models that forecast future outcomes based on historical patterns.
+- **🕵️ Anomaly & Outlier Detection**: Spots "weird" data points or potential risks before they become critical issues.
+- **💡 AI Reasoning Engine**: Translates complex mathematical models into human-readable logic and "Action Plans."
+- **💬 Conversational Data AI**: A built-in chat interface that allows you to "talk" to your data using natural language.
+- **📊 Decision-First UI**: A premium dashboard focused on "Strategic Actions" rather than just static charts.
+- **🚀 Cloud-Native Architecture**: Fully containerized and ready for orchestration via Kubernetes and monitoring via Prometheus.
 
 ---
 
-## 💻 Tech Stack (The Tools We Used)
+## 🏗 System Architecture
 
-- **Frontend (The Visuals):** React & TailwindCSS (Makes it look pretty and fast).
-- **Backend (The Brain):** Python & FastAPI (The powerful engine doing the math).
-- **Database (The Memory):** MongoDB (Stores your history).
-- **Visuals:** Recharts (Turns boring numbers into interactive graphs).
+The ADIS pipeline follows a high-performance "Factory" model:
 
----
-
-## ⚙️ Step-by-Step Installation (For Everyone)
-
-Don't worry if you've never run code before! Just follow these steps:
-
-### 1. Download the Code
-Click the green "Code" button at the top of this page and select **Download ZIP**, or if you know Git:
-```bash
-git clone https://github.com/santanu949/Autonomous-Decision-Intelligence-System-ADIS-.git
-cd Autonomous-Decision-Intelligence-System-ADIS-
-```
-
-### 2. Set Up the Backend (The Brain)
-1. Open your terminal (Command Prompt or PowerShell on Windows).
-2. Go into the backend folder: `cd backend`
-3. Create a "Virtual Environment" (a clean space for the app):
-   - **Windows:** `python -m venv venv`
-   - **Mac/Linux:** `python3 -m venv venv`
-4. Activate it:
-   - **Windows:** `.\venv\Scripts\activate`
-   - **Mac/Linux:** `source venv/bin/activate`
-5. Install the "Ingredients": `pip install -r requirements.txt`
-6. Start the engine: `python server.py`
-
-### 3. Set Up the Frontend (The Screen)
-1. Open a **NEW** terminal window.
-2. Go into the frontend folder: `cd frontend`
-3. Install the tools: `npm install` (this might take a minute!)
-4. Launch the dashboard: `npm start`
-5. Your browser should automatically open to **http://localhost:3000**!
+1.  **Ingestion & Parsing**: Raw data is loaded and structured by the backend.
+2.  **Analytics Engine**: Statistical analysis identifies correlations and trends.
+3.  **ML Prediction**: Scikit-Learn models generate forecasts and confidence scores.
+4.  **Strategic Synthesis**: The reasoning engine combines all insights into a final "Decision."
+5.  **Interactive Dashboard**: The React frontend displays the final strategy and interactive visualizations.
 
 ---
 
-## 📖 How to Use ADIS
+## 🛠 Tech Stack
 
-1.  **Upload Data:** On the Home page, you'll see a space to paste your data or upload a file.
-2.  **Analyze:** Click the "Run Analysis" button.
-3.  **Read the Decision:** Look at the top of the screen. ADIS will say something like *"Strategic Action: Increase Inventory."*
-4.  **Check Confidence:** Look at the gauge. If it's green and 90%, the AI is very sure!
-5.  **Chat with AI:** Type a question in the chat box at the bottom right, like *"What caused the sales spike in March?"*
+### Backend (The Brain)
+- **Framework**: FastAPI (Python)
+- **Data Science**: Pandas, NumPy
+- **Machine Learning**: Scikit-Learn
+- **Database**: MongoDB
 
----
+### Frontend (The Visuals)
+- **Framework**: React 18
+- **Styling**: Tailwind CSS
+- **Visualization**: Recharts, Framer Motion
 
-## 📂 Where is everything? (Folder Guide)
-
-- 📁 `backend`: Where the Python logic and AI math live.
-- 📁 `frontend`: Where the React website and buttons live.
-- 📁 `k8s`: Technical files for running this on huge cloud servers.
-- 📄 `README.md`: You are here! The instruction manual.
-
----
-
-## 🔮 What's Coming Next?
-
-We are constantly making ADIS smarter! Soon it will:
-- Support live data from your bank or shopify account.
-- Send you alerts on WhatsApp or Email when it finds an anomaly.
-- Support even more complex "What-if" games.
+### Infrastructure (The Scale)
+- **Containerization**: Docker & Docker Compose
+- **Orchestration**: Kubernetes (k8s)
+- **Monitoring**: Prometheus & Grafana
 
 ---
 
-<div align="center">
-  <h3>Ready to make smarter decisions? 🚀</h3>
-  <p>If you have any questions, feel free to reach out or open an issue!</p>
-</div>
+## 🚀 Setup & Installation
+
+### Prerequisites
+- Python 3.9+
+- Node.js 18+
+- Docker (optional, for containerized setup)
+
+### Local Development Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/santanu949/Autonomous-Decision-Intelligence-System.git
+   cd Autonomous-Decision-Intelligence-System
+   ```
+
+2. **Backend Setup**
+   ```bash
+   cd backend
+   python -m venv venv
+   source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+   pip install -r requirements.txt
+   python server.py
+   ```
+
+3. **Frontend Setup**
+   ```bash
+   cd ../frontend
+   npm install
+   npm run start
+   ```
+
+4. **Access the Platform**
+   Open `http://localhost:3000` to view the dashboard.
+
+---
+
+## 📖 Usage
+
+1. **Upload Data**: Navigate to the upload section and provide your dataset.
+2. **Run Analysis**: Trigger the autonomous pipeline to process the data.
+3. **Review Strategy**: Read the "Strategic Action" at the top of the dashboard.
+4. **Interact with AI**: Use the bottom-right chat bubble to ask specific questions about your data.
+
+---
+
+## 🛠 Project Status
+
+This project is currently an **Advanced Prototype**. 
+- [x] Core Analysis Pipeline
+- [x] ML Prediction Engine
+- [x] AI Chat Integration
+- [ ] Real-time External Data Connectors (In Progress)
+- [ ] Multi-User Governance (Roadmap)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+*Developed by [Santanu Samanta](https://github.com/santanu949) — Empowering data-driven leadership.*
